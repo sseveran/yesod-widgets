@@ -1,0 +1,14 @@
+Name:                yesod-widgets
+Version:             0.1
+License:             AllRightsReserved
+Build-type:          Simple
+Cabal-version:       >= 1.10
+
+Library
+  Default-Language:  Haskell2010
+  Exposed-modules:   Yesod.Widgets.LineChart
+  Build-depends:     base,
+                     text,
+                     yesod
+
+  GHC-Options:       -Wall -Werror -auto-all
